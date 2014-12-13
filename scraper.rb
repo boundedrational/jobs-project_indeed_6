@@ -94,11 +94,11 @@ for element in states
                   text.gsub!(/&lt.*?&gt;/im, "")
                   text.gsub!(/\[/im, "")
 
-                  title.gsub!(/.*-/im, "")
-                  title.gsub!(/.*=/im, "")
+#                  title.gsub!(/.*-/im, "")
+#                  title.gsub!(/.*=/im, "")
   
           
-                  title=title.to_s()
+#                  title=title.to_s()
                   begin
                    ht[identification]<< long_content
                   rescue
